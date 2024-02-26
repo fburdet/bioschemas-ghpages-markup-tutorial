@@ -3,6 +3,36 @@ One of the results of the web-app [TREC-doc-2-doc-relevance](https://github.com/
 This page has been created to embed schema.org and Bioschemas markup describing the [Fleiss kappa for doc-2-doc relevance assessment](https://doi.org/10.5281/zenodo.7338056) dataset and its current release deposited in Zenodo. 
 
 <script type="application/ld+json">
+  { 
+    "@context": "https://schema.org", 
+    "@type": "SoftwareSourceCode",
+    "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+    "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, et al. TREC-doc-2-doc-relevance [Software source code]. GitHub; 2022.",
+    "name": "TREC-doc-2-doc-relevance",
+    "description": "This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
+    "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance#",
+    "targetProduct": { 
+      "@id": "https://doi.org/10.5281/zenodo.7341391"
+    },
+    "license": {
+      "@type": "CreativeWork",
+      "@id": "http://spdx.org/licenses/MIT",
+      "name": "MIT License", 
+      "url": "https://opensource.org/license/mit/"
+    },
+    "author": [
+      {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
+      {"@id": "https://orcid.org/0000-0002-2910-7982"},
+      {"@id": "https://orcid.org/0000-0002-8725-1317"},
+      {"@id": "https://orcid.org/0009-0004-4484-6283"},
+      {"@id": "https://orcid.org/0000-0003-2978-8922"},
+      {"@id": "https://orcid.org/0000-0002-1018-0370"},
+      {"@id": "https://orcid.org/0000-0003-3986-0510"}
+    ]
+  }
+<7script>
+
+<script type="application/ld+json">
   {
     "@context": "https://schema.org", 
     "@type": "Dataset",
